@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+faster-whisper==1.1.0
+# PyAV 16+ removed metadata_errors= from av.open(); faster-whisper 1.1 still passes it
+av>=11,<16
+requests>=2.32.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
